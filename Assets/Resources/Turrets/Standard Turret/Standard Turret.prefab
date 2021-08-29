@@ -284,6 +284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9166951852991983015}
   - component: {fileID: 9166951852991983012}
+  - component: {fileID: 1920804688}
   m_Layer: 0
   m_Name: Standard Turret
   m_TagString: Untagged
@@ -316,13 +317,33 @@ Animation:
   m_GameObject: {fileID: 9166951852991983014}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: ea6c6be32eb04b94392ec1d5d3de638f, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: ea6c6be32eb04b94392ec1d5d3de638f, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1920804688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9166951852991983014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca4241cddd42ec42bcf3e245544b28e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FireTransform: {fileID: 9166951851884104160}
+  NeckTransform: {fileID: 9166951853186311864}
+  BulletSpeed: 5
+  Damage: 1
+  Range: 5
+  FireRate: 1
+  Price: 10
+  Prefab: {fileID: 3373973908353959171, guid: c2753407d53977840b348765869ce238, type: 3}
 --- !u!1 &9166951853186311867
 GameObject:
   m_ObjectHideFlags: 0

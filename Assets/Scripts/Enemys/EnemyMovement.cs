@@ -38,7 +38,7 @@ public class EnemyMovement : MonoBehaviour
 
             if (m_MovePoint == null)
             {
-                Destroy(gameObject);
+                SpawnManager.Get.DestoryEnemy(GetComponent<Enemy>());
             }
             else SetDirection();
         }

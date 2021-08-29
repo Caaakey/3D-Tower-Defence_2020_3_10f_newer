@@ -173,6 +173,7 @@ GameObject:
   - component: {fileID: 4825512635321224684}
   - component: {fileID: 4825512635321224683}
   - component: {fileID: 4825512635321224682}
+  - component: {fileID: 4021742381733262407}
   - component: {fileID: 7879790239312013366}
   m_Layer: 0
   m_Name: Enemy
@@ -229,6 +230,19 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &4021742381733262407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4825512635321224685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0e0c3ebb3367d34e837a70198012d78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHP: 2
 --- !u!114 &7879790239312013366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,7 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8f5277e65b644d42b25230130a861e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 3
+  Speed: 2.5
 --- !u!1 &4825512635629889327
 GameObject:
   m_ObjectHideFlags: 0
