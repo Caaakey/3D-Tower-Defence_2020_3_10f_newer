@@ -6,14 +6,13 @@ public class ValcanTurret : TurretStatus
 
     protected override void Shoot()
     {
-        Ray ray = new Ray(NeckTransform.position, Vector3.forward);
-        if (Physics.Raycast(ray, out var hitInfo, Range))
-        {
-            ParticleSystem p = Instantiate(m_Particle, hitInfo.point, Quaternion.identity, null);
-            p.Play();
+        Vector3 norm = (EnemyTarget.transform.position - transform.position).normalized;
+        ParticleSystem p = Instantiate(
+            m_Particle,
+            EnemyTarget.transform.position,
+            Quaternion.Inverse(Quaternion.LookRotation(norm)));
 
-            Destroy(p.gameObject, 0.5f);
-        }
+        p.Play();
 
         EnemyTarget.OnHit(Damage);
 

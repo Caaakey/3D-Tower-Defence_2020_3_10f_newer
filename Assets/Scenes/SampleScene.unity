@@ -10245,12 +10245,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1920804688, guid: 87323e34cc2d9d6429c376bec46f38ea, type: 3}
+      propertyPath: Prefab
+      value: 
+      objectReference: {fileID: 4879142999488378740, guid: b801d7039cf084f4ba02444301f9fd38, type: 3}
+    - target: {fileID: 1920804688, guid: 87323e34cc2d9d6429c376bec46f38ea, type: 3}
       propertyPath: BulletSpeed
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9166951852991983014, guid: 87323e34cc2d9d6429c376bec46f38ea, type: 3}
       propertyPath: m_Name
       value: Standard Turret (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9166951852991983014, guid: 87323e34cc2d9d6429c376bec46f38ea, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9166951852991983015, guid: 87323e34cc2d9d6429c376bec46f38ea, type: 3}
       propertyPath: m_RootOrder
@@ -26315,6 +26323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Standard Turret
       objectReference: {fileID: 0}
+    - target: {fileID: 9166951852991983014, guid: 87323e34cc2d9d6429c376bec46f38ea, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9166951852991983015, guid: 87323e34cc2d9d6429c376bec46f38ea, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -29414,6 +29426,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 143139639299562528, guid: 38becdfdc819b4e409c8109af6e02aa4, type: 3}
+      propertyPath: FireRate
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 143139639299562528, guid: 38becdfdc819b4e409c8109af6e02aa4, type: 3}
       propertyPath: m_Particle
       value: 
       objectReference: {fileID: 3594953637584298894, guid: 85ce4273df2007c4ca443d9254be4c42, type: 3}
@@ -29465,5 +29481,70 @@ PrefabInstance:
       propertyPath: m_Name
       value: Machine Turret
       objectReference: {fileID: 0}
+    - target: {fileID: 6997039352985471046, guid: 38becdfdc819b4e409c8109af6e02aa4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38becdfdc819b4e409c8109af6e02aa4, type: 3}
+--- !u!1001 &8481204820433548923
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 555861966858999215, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}
+      propertyPath: BulletSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481204821263063401, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481204821263063401, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481204821263063401, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481204821263063401, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.689
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481204821263063401, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481204821263063401, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481204821263063401, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481204821263063401, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481204821263063401, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481204821263063401, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481204821263063401, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481204821263063402, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}
+      propertyPath: m_Name
+      value: Cannon Turret
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 21b2a19b8a1a98d4da1ceb75088a439a, type: 3}

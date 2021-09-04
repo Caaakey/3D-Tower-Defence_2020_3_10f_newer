@@ -343,7 +343,7 @@ MonoBehaviour:
   Range: 5
   FireRate: 1
   Price: 10
-  Prefab: {fileID: 3373973908353959171, guid: c2753407d53977840b348765869ce238, type: 3}
+  Prefab: {fileID: 4879142999488378740, guid: b801d7039cf084f4ba02444301f9fd38, type: 3}
 --- !u!1 &9166951853186311867
 GameObject:
   m_ObjectHideFlags: 0
