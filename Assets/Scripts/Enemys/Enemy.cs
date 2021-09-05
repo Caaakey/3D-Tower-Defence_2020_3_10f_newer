@@ -6,6 +6,7 @@
 public class Enemy : MonoBehaviour
 {
     public float MaxHP;
+    public int Prize;
     private float m_CurrentHp;
 
     private void Start()
